@@ -79,6 +79,18 @@ public class MyViewModel extends ViewModel {
 ```
  3. Shared data is available after activity recreated on config changes
  in this case data has been shown on details framgnet UI
+ ``` Data is received in details fragment after clicking on items
+    SharedViewModel model = ViewModelProviders.of(getActivity()).get(SharedViewModel.class);
+
+        model.getSelected().observe(getActivity(), new Observer<User>() {
+            @Override
+            public void onChanged(@Nullable User dummyItem) {
+                Log.i(TAG, "onChanged.... " + dummyItem.toString());
+                textView.setText(dummyItem.toString());
+            }
+        });
+        
+```
 
 
 ##### References
