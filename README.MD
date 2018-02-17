@@ -92,6 +92,12 @@ public class MyViewModel extends ViewModel {
         
 ```
 
+#### UI
+
+![device-2018-02-17-203945](https://user-images.githubusercontent.com/28217318/36342368-9ca97442-1423-11e8-8044-bdd83452e424.png)
+
+![device-2018-02-17-203835](https://user-images.githubusercontent.com/28217318/36342367-9c74e1b4-1423-11e8-9a3a-92e491e70fe9.png)
+
 
 ##### References
 https://developer.android.com/topic/libraries/architecture/viewmodel.html
